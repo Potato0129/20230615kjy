@@ -1,0 +1,245 @@
+@font-face {
+      font-family: 'SBAggro';
+      font-weight: 300;
+      font-style: normal;
+      src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.eot');
+      src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.eot?#iefix') format('embedded-opentype'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.woff2') format('woff2'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.woff') format('woff'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.ttf') format("truetype");
+      font-display: swap;
+  }
+@font-face {
+      font-family: 'SBAggro';
+      font-weight: 500;
+      font-style: normal;
+      src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.eot');
+      src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.eot?#iefix') format('embedded-opentype'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.woff2') format('woff2'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.woff') format('woff'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.ttf') format("truetype");
+      font-display: swap;
+  }
+@font-face {
+      font-family: 'SBAggro';
+      font-weight: 700;
+      font-style: normal;
+      src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.eot');
+      src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.eot?#iefix') format('embedded-opentype'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.woff2') format('woff2'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.woff') format('woff'),
+          url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.ttf') format("truetype");
+      font-display: swap;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SBAggro";
+}
+body {
+  width: 1920px;
+}
+.bodyt {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+}
+.accent {
+  font-weight: 700;
+}
+.con {
+  position: absolute;
+  display: flex;
+  z-index: 10;
+}
+#logo {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 48px;
+}
+#con1 p {
+  position: absolute;
+  color: white;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 120px;
+  left: 350px;
+  top: 308.6px;
+}
+#text01 {
+  position: absolute;
+  left: 350px;
+  top: 308.6px;
+}
+#con2 {
+  top: 1080px;
+  width: 1920px;
+}
+.subt {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 500;
+  color: #12E0AA;
+  top: 97px;
+  left: 811px;
+}
+#main {
+  position: absolute;
+  left: 631.3px;
+  top: 157px;
+}
+#bt1 p {
+  margin-left: 57px;
+  margin-top: 23px;
+}
+#bt1 {
+  width: 602px;
+  height: 80px;
+  border: 2px solid white;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  left: 556px;
+  top: 517px;
+}
+#bodyt1 {
+  position: absolute;
+  width: 499px;
+  left: 556px;
+  top: 637px;
+}
+#illust {
+  position: absolute;
+  right: 154.6px;
+  top: 433.9px;
+}
+#bg {
+  position: absolute;
+}
+#con3 {
+  top: 2160px;
+  width: 1920px;
+}
+#bt2 p {
+  margin-left: 102px;
+  margin-top: 23px;
+}
+#bt2 {
+  width: 382px;
+  height: 80px;
+  border: 2px solid white;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  left: 769px;
+  top: 111px;
+}
+#text02 {
+  position: absolute;
+  top: 247px;
+  left: 758px;
+}
+#bodyt2 {
+  position: absolute;
+  text-align: center;
+  width: 499px;
+  top: 490px;
+  left: 711px;
+}
+#list {
+  position: absolute;
+  float: left;
+  top: 577px;
+  left: 350px;
+}
+#list1 {
+  margin-right: 14px;
+}
+#list2 {
+  margin-right: 14px;
+}
+#con4 {
+  top: 3240px;
+  width: 1920px;
+}
+#can {
+  position: absolute;
+  top: 67.4px;
+  left: 194.1px;
+}
+#bt3 p {
+  margin-left: 101px;
+  margin-top: 23px;
+}
+#bt3 {
+  width: 382px;
+  height: 80px;
+  border: 2px solid white;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  left: 1055px;
+  top: 299px;
+}
+#text03 {
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 72px;
+  position: absolute;
+  top: 411px;
+  left: 1055px;
+}
+.sbt {
+  width: 382px;
+  height: 80px;
+  background-color: #18D68D;
+  text-decoration: none;
+  color: #001123;
+  font-size: 32px;
+  font-weight: 300;
+}
+#sbt1 {
+  position: absolute;
+  top: 604px;
+  left: 1055px;
+}
+#box1 {
+  padding-top: 20px;
+  padding-left: 161px;
+}
+#sbtext1 {
+  margin-right: 89px;
+  float: left;
+}
+#sbt2 {
+  position: absolute;
+  top: 716px;
+  left: 1055px;
+}
+#box2 {
+  padding-top: 20px;
+  padding-left: 117px;
+}
+#sbtext2 {
+  margin-right: 45px;
+  float: left;
+}
+#sbt3 {
+  position: absolute;
+  top: 828px;
+  left: 1055px;
+}
+#box3 {
+  padding-top: 20px;
+  padding-left: 151px;
+}
+#sbtext3 {
+  margin-right: 79px;
+  float: left;
+}
